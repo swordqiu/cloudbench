@@ -1,0 +1,6 @@
+rm -fr blogbench-1.1
+sudo yum -y install gcc make
+tar xvf blogbench-1.1.tar.bz2
+cd blogbench-1.1
+./configure
+make

@@ -1,0 +1,5 @@
+rm -fr UnixBench
+sudo yum -y install perl-Time-HiRes
+tar xvf UnixBench5.1.3.tgz
+cd UnixBench
+./Run

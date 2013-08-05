@@ -1,0 +1,5 @@
+rm -fr fio
+sudo yum install -y gcc make libaio-devel numactl-devel zlib-devel
+tar xvf fio.tbz2
+cd fio
+make
